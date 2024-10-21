@@ -1,0 +1,156 @@
+body{
+    background-color: #fff;
+}
+
+:root {
+    --Brand-color: #DC143C;
+    --Brand-colorHV: #C81237;
+    --primary-Btn: #fff;
+    --primary-BtnHV: #EFEFEF;
+    --background-color1: #fff;
+    --background-color2: #F5F5F5;
+    --background-color3: #F5F7FA;
+    --text-color1: #292C31;
+    --text-color2: #5F6165;
+    --text-color3: #72767C;
+    --text-color4: #fff;
+    --text-color5: #DC143C;
+    --error-colorHV: #FFE5E6;
+
+}
+
+
+.login-page{
+    display: flex;
+
+}
+
+.login-page-first-part{
+    padding: 40px 88px;
+    width: 50%;
+
+
+}
+
+.Bissdate-Logo {
+    width: 180px;
+    height: 40px;
+    margin-bottom: 12px;
+}
+
+.welcome-back{
+    margin-bottom: 12px;
+}
+
+.welcome-back h1{
+    font-size: 24px;
+    font-family: "Kumbh Sans", sans-serif;
+    font-weight: 600;
+    margin-bottom: 8px;
+    color: var(--text-color1);
+
+} 
+
+.welcome-back p{
+    font-size: 16px;
+    font-family: "Kumbh Sans", sans-serif;
+}
+
+.form-container{
+    margin-bottom: 20px;
+}
+
+.form-content-one{
+    margin-bottom: 24px;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+input[type="text"],
+        input[type="email"],
+        textarea {
+            width: 402px;
+            height: 40px;
+            padding: 8px;
+            margin-bottom: 4px;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            box-sizing: border-box;
+            font-size: 14px;
+            font-family: "Kumbh Sans", sans-serif;
+}
+
+.remember-forgot-password{
+    display: flex;
+    width: 402px;
+    justify-content: space-between;
+    margin-bottom: 32px;
+}
+
+.remember{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.remember-forgot-password p{
+    font-family: "Kumbh Sans", sans-serif;
+    font-size: 14px;
+}
+
+.remember-forgot-password a{
+    font-family: "Kumbh Sans", sans-serif;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.sign-in{
+    display: flex;
+    flex-direction: column;
+    width: 402px;
+    margin-bottom: 12px;
+} 
+.sign-in a{
+        background-color: var(--Brand-color);
+        font-family: "Kumbh Sans", sans-serif;
+        padding: 8px 100px;
+        border-radius: 4px;
+        color: var(--text-color4);
+        cursor: pointer;
+        text-align: center;   
+}  
+
+.sign-in a:hover{
+    background-color: var(--Brand-colorHV);
+}
+
+.google-signin{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    width: 402px;
+    border: 1px solid;
+    border-radius: 4px;
+    gap: 8px;
+    cursor: pointer;
+    height: 36px;
+}
+
+.google-signin a{
+    font-family: "Kumbh Sans", sans-serif;
+    font-size: 16px;
+}
+
+.login-page-second-part{
+    border: 1px solid;
+    width: 50%;
+}
+.login-page-second-part img{
+    width: auto;
+    height: auto;
+}

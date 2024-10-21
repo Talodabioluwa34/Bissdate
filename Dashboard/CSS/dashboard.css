@@ -1,0 +1,262 @@
+body{
+    background-color: #121212;
+} 
+
+:root {
+    --Brand-color: #DC143C;
+    --Brand-colorHV: #C81237;
+    --primary-Btn: #fff;
+    --primary-BtnHV: #EFEFEF;
+    --background-color1: #fff;
+    --background-color2: #F5F5F5;
+    --background-color3: #F5F7FA;
+    --text-color1: #292C31;
+    --text-color2: #5F6165;
+    --text-color3: #72767C;
+    --text-color4: #fff;
+    --text-color5: #DC143C;
+    --error-colorHV: #FFE5E6;
+
+}
+
+.section{
+    padding: 24px;
+}
+/* dashboard styling starts from here */
+.dashboard {
+display: grid;
+grid-template-columns: 264px auto;
+background-color: var(--background-color2);
+}
+
+.aside-bar::-webkit-scrollbar{
+    display: none;
+}
+/* aside styling */
+aside{
+    background-color: var(--background-color1);
+    width: 264px;
+    height: 100vh;
+     position: fixed;
+}
+/* aside first part styling */
+.aside-first-part{
+    margin-bottom: 44px;
+}
+
+/* Bissdate-Logo styling  */
+.Bissdate-Logo img{
+    width: 180px;
+    height: 40px;
+}
+
+/* User-Account Balance styling */
+
+.account-balance{
+    gap: 16px;
+    margin-bottom: 12px;
+}
+
+/* balance styling */
+
+.balance{
+    color: var(--text-color1);
+    font-size: 20px;
+    font-family: "Kumbh Sans", sans-serif;
+    font-weight: 500;
+
+}
+
+/* dollar styling */
+
+.dollar{
+    color: var(--text-color1);
+    font-size: 20px;
+    font-family: "Kumbh Sans", sans-serif;
+    font-weight: 500;
+}
+
+/* top-up styling */
+
+.Top-up a {
+    background-color: var(--Brand-color);
+    font-family: "Kumbh Sans", sans-serif;
+    padding: 8px 20px;
+    border-radius: 4px;
+    color: var(--text-color4);
+    cursor: pointer;
+
+}
+
+
+.Top-up a:hover {
+    background-color: var(--Brand-colorHV);
+}
+
+/* Aside-Second-Part Styling */
+
+.nav-container{
+    /* border: 1px solid; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-bottom: 72px;
+}
+
+/* nav-links styling */
+.nav-links{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+/* nav-link-active styling */
+.nav-item{
+    padding: 8px 12px;
+    width: 100%;
+    list-style: none;
+    cursor: pointer;
+    border-radius: 4px;
+    font-family: "Kumbh Sans", sans-serif;
+    font-size: 12px;
+    gap: 12px;
+    margin-bottom: 12px;
+}
+
+/* nav-links styling */
+
+.nav-link{
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+/* Active nav-links styling */
+.active{
+    background-color: var(--primary-BtnHV);
+}
+
+/* error button styling */
+
+.logout:hover{
+    background-color: var(--error-colorHV) !important; 
+}
+
+/* nav-item hover styling */
+
+.nav-item:hover{
+    background-color: var(--primary-BtnHV);
+    border-radius: 4px;
+}
+
+/* aside-third-part styling is part of the ul and li at the second part */
+
+/* main-content styling starts from here */
+
+.main-content{ 
+    margin-left: 264px;
+
+} 
+/* dashboard topbar styling starts from here */
+.top-bar{
+    display: flex;
+    width: 998px;
+    gap: 12px;
+    padding: 8px 12px;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #fff;
+    position: fixed;
+}
+/* search bar styling starts from here */
+.search-bar{
+    background-color: var(--background-color2);
+    padding: 0 16px;
+    height: 32px;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+
+}
+/* profile picture with notification icon styling starts from here */
+.picture-notification{
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    padding-right: 40px;
+}
+
+/* Title styling starts from here */
+
+.title-container{
+    margin-top: 60px;
+    margin-bottom: 24px;
+}
+
+.title {
+    font-family: "Kumbh Sans", sans-serif;
+    font-weight: 500;
+    font-size: 30px;
+    color: var(--text-color1);
+    padding: 12px 12px;
+}
+/* action button styling starts from here */
+.actions{
+    display: flex;
+    gap: 16px;
+    padding: 0 12px;
+}
+/* online styling starts from here */
+.online-btn{
+    background-color: var(--error-colorHV);
+    font-family: "Kumbh Sans", sans-serif;
+    padding: 8px 20px;
+    border-radius: 4px;
+    color: var(--text-color1);
+    cursor: pointer;
+    font-size: 16px;
+}
+/* offline styling starts from here */
+.offline-btn{
+    background-color: var(--background-color1);
+    font-family: "Kumbh Sans", sans-serif;
+    padding: 8px 20px;
+    border-radius: 4px;
+    color: var(--text-color1);
+    cursor: pointer;
+    font-size: 16px;
+
+}
+
+/* box styling starts from here */
+
+.box-container{
+    display: flex;
+    justify-content:space-between;
+    width: 998px;
+    gap: 12px;
+    padding: 0 16px;
+    margin-bottom: 24px;
+}
+
+.box{
+    padding: 12px;
+    background-color: var(--background-color1);
+    border-radius: 6px;
+}
+
+.box h2 {
+    font-family: "Kumbh Sans", sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    color: var(--text-color1);
+    margin-bottom: 12px;
+    text-align: center;
+}
+
+.box-image{
+    width: 400px;
+}
+
+/* dashboard styling ends here  */
